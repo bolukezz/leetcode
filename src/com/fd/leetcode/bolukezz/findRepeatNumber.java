@@ -1,4 +1,4 @@
-package com.fd.leetcode.zhuyumeng;
+package com.fd.leetcode.bolukezz;
 
 /**
  * @author zhuyumeng
