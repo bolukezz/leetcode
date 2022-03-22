@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8651fbc8-f13f-4612-8d04-08b34d610b4a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8651fbc8-f13f-4612-8d04-08b34d610b4a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,8 +61,6 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -87,18 +83,13 @@
       <option name="presentableId" value="Default" />
       <updated>1647666158728</updated>
       <workItem from="1647666160663" duration="941000" />
-      <workItem from="1647828012719" duration="598000" />
-      <workItem from="1647916875365" duration="1681000" />
-      <workItem from="1647918809293" duration="594000" />
+      <workItem from="1647828012719" duration="1155000" />
+      <workItem from="1647829358089" duration="1233000" />
+      <workItem from="1647831422571" duration="858000" />
+      <workItem from="1647865333182" duration="77000" />
+      <workItem from="1647869480140" duration="661000" />
+      <workItem from="1647913973479" duration="1997000" />
     </task>
-    <task id="LOCAL-00001" summary="提交人：胡计恒 提交内容：双栈实现队列">
-      <created>1647916988931</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1647916988931</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,7 +106,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -127,9 +118,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="提交人：胡计恒 提交内容：双栈实现队列" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交人：胡计恒 提交内容：双栈实现队列" />
   </component>
 </project>
