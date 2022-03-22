@@ -22,7 +22,7 @@ public class SimulationOfQueue {
 
     public int deleteHead() {
         if (!stack2.isEmpty()) {
-            stack2.pollLast();
+            return stack2.pollLast();
         }
         if (stack1.isEmpty()) {
             return -1;
