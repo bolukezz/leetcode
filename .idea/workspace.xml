@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8651fbc8-f13f-4612-8d04-08b34d610b4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fd/leetcode/bolukezz/reversePrint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fd/leetcode/common/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,21 +76,6 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/fd/leetcode/zxy222" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -102,7 +85,11 @@
       <option name="presentableId" value="Default" />
       <updated>1647666158728</updated>
       <workItem from="1647666160663" duration="941000" />
-      <workItem from="1647828012719" duration="598000" />
+      <workItem from="1647828012719" duration="1155000" />
+      <workItem from="1647829358089" duration="1233000" />
+      <workItem from="1647831422571" duration="858000" />
+      <workItem from="1647865333182" duration="77000" />
+      <workItem from="1647869480140" duration="661000" />
     </task>
     <servers />
   </component>
@@ -120,7 +107,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
