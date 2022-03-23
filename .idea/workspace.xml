@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8651fbc8-f13f-4612-8d04-08b34d610b4a" name="Default Changelist" comment="" />
+    <list default="true" id="8651fbc8-f13f-4612-8d04-08b34d610b4a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fd/leetcode/bolukezz/Fib.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,6 +77,19 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/fd/leetcode/zxy222" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -89,6 +105,10 @@
       <workItem from="1647865333182" duration="77000" />
       <workItem from="1647869480140" duration="661000" />
       <workItem from="1647913973479" duration="1997000" />
+      <workItem from="1647931426310" duration="156000" />
+      <workItem from="1647949688700" duration="1257000" />
+      <workItem from="1647957385244" duration="640000" />
+      <workItem from="1648000440656" duration="954000" />
     </task>
     <servers />
   </component>
