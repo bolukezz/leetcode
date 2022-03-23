@@ -16,8 +16,8 @@ public class DoubleStack {
      * 声明队列
      */
     void CQueue() {
-        stackOne = new LinkedList<Integer>();
-        stackTwo = new LinkedList<Integer>();
+        stackOne = new LinkedList<>();
+        stackTwo = new LinkedList<>();
     }
 
     /**
@@ -43,4 +43,11 @@ public class DoubleStack {
         }
     }
 
+    public static void main(String[] args) {
+        DoubleStack doubleStack = new DoubleStack();
+        doubleStack.CQueue();
+        doubleStack.appendTail(21);
+        int i = doubleStack.deleteHead();
+        System.out.println(i);
+    }
 }
