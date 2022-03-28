@@ -6,7 +6,6 @@ public class DeleteNode {
 
 
     public static ListNode Solution(ListNode head, int val) {
-        if (head.val==val)return null;
         ListNode cur = head;
         if (cur.val == val) {
             return cur.next;
