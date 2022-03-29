@@ -1,5 +1,7 @@
 package com.fd.leetcode.will;
 
+import com.fd.leetcode.common.ListNode;
+
 /**
  * @author will
  * @date 2022-03-28 23:08
