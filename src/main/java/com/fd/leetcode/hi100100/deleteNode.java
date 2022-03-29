@@ -1,4 +1,4 @@
-package com.fd.leetcode.hi100100;
+package main.java.com.fd.leetcode.hi100100;
 
 import com.fd.leetcode.common.ListNode;
 
