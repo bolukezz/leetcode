@@ -1,4 +1,6 @@
-package com.fd.leetcode.will;
+package main.java.com.fd.leetcode.will;
+
+import main.java.com.fd.leetcode.common.ListNode;
 
 /**
  * @author will

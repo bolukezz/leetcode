@@ -1,6 +1,7 @@
-package com.fd.leetcode.will;
+package main.java.com.fd.leetcode.will;
 
-import com.fd.leetcode.common.ListNode;
+
+import main.java.com.fd.leetcode.common.ListNode;
 
 import java.util.LinkedList;
 
