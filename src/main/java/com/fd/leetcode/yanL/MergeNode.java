@@ -1,6 +1,6 @@
 package main.java.com.fd.leetcode.yanL;
 
-import com.fd.leetcode.common.ListNode;
+import main.java.com.fd.leetcode.common.ListNode;
 
 public class MergeNode {
 
