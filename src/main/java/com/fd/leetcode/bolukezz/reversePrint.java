@@ -1,6 +1,6 @@
-package com.fd.leetcode.bolukezz;
 
-import com.fd.leetcode.common.ListNode;
+
+import main.java.com.fd.leetcode.common.ListNode;
 
 import java.util.LinkedList;
 

@@ -1,4 +1,4 @@
-package com.fd.leetcode.common;
+package main.java.com.fd.leetcode.common;
 
 /**
  * @author zhuyumeng

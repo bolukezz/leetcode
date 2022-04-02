@@ -1,6 +1,7 @@
 package main.java.com.fd.leetcode.hi100100;
 
-import com.fd.leetcode.common.ListNode;
+
+import main.java.com.fd.leetcode.common.ListNode;
 
 /**
  * @author Administrator

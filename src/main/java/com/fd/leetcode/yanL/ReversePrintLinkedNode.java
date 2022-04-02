@@ -1,6 +1,7 @@
 package com.fd.leetcode.yanL;
 
-import com.fd.leetcode.common.ListNode;
+
+import main.java.com.fd.leetcode.common.ListNode;
 
 import java.util.ArrayList;
 import java.util.List;
