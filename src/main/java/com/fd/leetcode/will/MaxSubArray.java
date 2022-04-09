@@ -9,8 +9,9 @@ public class MaxSubArray {
         int res = nums[0];
         int len = nums.length;
         for (int i = 1; i < len; i++) {
-            if (nums[i - 1] > 0) nums[i] += nums[i - 1];
-            if (nums[i] > res) res = nums[i];
+            if (nums[i - 1] > 0)
+                nums[i] += nums[i - 1];
+            res = Math.max(res, nums[i]);
         }
         return res;
     }
