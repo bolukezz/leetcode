@@ -4,30 +4,40 @@ import main.java.com.fd.leetcode.common.TreeNode;
 
 /**
  * @author zhuyumeng
- * @date 2022/4/26 10:07 上午
+ * @date 2022/4/28 4:42 下午
  */
 public class BuildTree {
+    //todo 太累了先cv，明天早晨写写看。
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-        return dfs(0, 0, inorder.length - 1, preorder, inorder);
-    }
-
-    public TreeNode dfs(int root, int left, int right, int[] preorder, int[] inorder) {
-        if (left > right) {
+        int length = preorder.length;
+        if (length == 0) {
             return null;
         }
-        int preVal = preorder[root];
-        TreeNode curRoot = new TreeNode(preorder[root]);
-        int idx = 0;
-        for (int i = 0; i < inorder.length; i++) {
-            if (preVal == inorder[i]) {
-                idx = i;
-                break;
+        if (length == 1) {
+            return new TreeNode(preorder[0]);
+        }
+        //确定根节点
+        TreeNode root = new TreeNode(preorder[0]);
+        int index = 0;
+        for (int i = 0; i < length; i++) {
+            if (inorder[i] == preorder[0]) {
+                //在中序列表里查找根元素下标
+                index = i;
             }
         }
-        dfs(root + 1, left, idx - 1, preorder, inorder);
-        dfs(root + idx - left + 1, idx + 1, right, preorder, inorder);
+        //取出左子树的前序遍历
+        int[] leftPreOrder = Arrays.copyOfRange(preorder, 1, index + 1);
+        //取出左子树的中序遍历
+        int[] leftInOrder = Arrays.copyOfRange(inorder, 0, index);
+        //生成左子树
+        root.left = buildTree(leftPreOrder, leftInOrder);
 
-        return curRoot;
+        //取出右子树的前序遍历列表
+        int[] rightPreOrder = Arrays.copyOfRange(preorder, index + 1, length);
+        //取出右子树的中序遍历列表
+        int[] rightInOrder = Arrays.copyOfRange(inorder, index + 1, length);
+        //生成右子树
+        root.right = buildTree(rightPreOrder, rightInOrder);
+        return root;
     }
 }
-
