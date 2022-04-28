@@ -4,7 +4,7 @@ public class MovingCount {
     int result = 0;
 
     public int movingCount(int m, int n, int k) {
-        booMovingCountlean[][] help = new boolean[m][n];
+        boolean[][] help = new boolean[m][n];
         dfs(help, 0, 0, k);
         return result;
     }
