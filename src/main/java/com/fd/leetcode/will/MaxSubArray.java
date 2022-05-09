@@ -15,4 +15,13 @@ public class MaxSubArray {
         }
         return res;
     }
+
+    public int maxSubArray_2(int[] nums) {
+        int pre = 0, maxAns = nums[0];
+        for (int x : nums) {
+            pre = Math.max(pre + x, x);
+            maxAns = Math.max(maxAns, pre);
+        }
+        return maxAns;
+    }
 }
