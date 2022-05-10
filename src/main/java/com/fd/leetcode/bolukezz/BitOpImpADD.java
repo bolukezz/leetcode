@@ -11,7 +11,7 @@ public class BitOpImpADD {
         while(b != 0) {
             a = a^b;
             b = (a & b) << 1;
-            a = c;
+        //    a = c;
         }
         return a;
     }
